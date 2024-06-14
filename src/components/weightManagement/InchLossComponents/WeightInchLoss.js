@@ -10,25 +10,25 @@ import greenApplePic from '../../../assets/weightMangement/greenApple.png'
 import BookAppointmentForm from '../../common/BookAppointmentForm'
 
 const WeightInchLoss = () => {
-    return (
-        <div>
-            <Header />
-            <div>
-                <FigureCorrection />
-                <Targeted />
-                <AvailableTech />
-                <Transformation />
-                <Benfits />
-                <BookAppointmentForm
-                    appointmentPic={greenApplePic}
-                    isReversed
-                    hideFogEffect
-                />
-            </div>
+  return (
+    <div>
+      <Header />
+      <div>
+        <FigureCorrection />
+        <Targeted />
+        <AvailableTech />
+        <Transformation />
+        <Benfits />
+        <BookAppointmentForm
+          appointmentPic={greenApplePic}
+          isReversed
+          hideFogEffect
+        />
+      </div>
 
-            <Footer />
-        </div>
-    )
+      <Footer />
+    </div>
+  )
 }
 
 export default WeightInchLoss

@@ -22,39 +22,38 @@ import AgeingSkin from './AgeingSkin'
 import Sevenmain from './sevenmain'
 import TreamentBenifitsfour from './treamentBenifitsfour'
 
-
 const AntiAgeingPage = () => {
-    return (
-        <>
-            <Header />
-            <div className="flex flex-col gap-y-[3rem] md:gap-y-[1rem]">
-                <AntiAgeingIntro />
-                <SkinantiCare />
-                <SkinAgeing />
-                <BotoxCosmetic />
-                <BotaxFDA />
-                <WhyBotox />
-                <BotoxBag />
-                <AntiAgeingSkin />
-                <ThreadLift />
-                <TighteningBenifits />
-                <Enzymes />
-                <SkinBenifits />
-                <Brightening />
-                <TreamentSkinThree />
-                <AntiWrinkle />
-                {/* treamentBenifitsfour */}
-                <TreamentBenifitsfour />
-                <AgeingSkin />
-                <Sevenmain />
-                <BookAppointmentForm
-                    appointmentPic={appointmentPic}
-                    isReversed
-                />
-            </div>
-            <Footer />
-        </>
-    )
+  return (
+    <>
+      <Header />
+      <div className='flex flex-col gap-y-[3rem] md:gap-y-[1rem]'>
+        <AntiAgeingIntro />
+        <SkinantiCare />
+        <SkinAgeing />
+        <BotoxCosmetic />
+        <BotaxFDA />
+        <WhyBotox />
+        <BotoxBag />
+        <AntiAgeingSkin />
+        <ThreadLift />
+        <TighteningBenifits />
+        <Enzymes />
+        <SkinBenifits />
+        <Brightening />
+        <TreamentSkinThree />
+        <AntiWrinkle />
+        {/* treamentBenifitsfour */}
+        <TreamentBenifitsfour />
+        <AgeingSkin />
+        <Sevenmain />
+        <BookAppointmentForm
+          appointmentPic={appointmentPic}
+          isReversed
+        />
+      </div>
+      <Footer />
+    </>
+  )
 }
 
 export default AntiAgeingPage

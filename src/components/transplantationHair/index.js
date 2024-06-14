@@ -6,31 +6,30 @@ import HairTransplationSection from './HairTransplationSection'
 import AestheticCare from './AestheticCare'
 import TechniqueUsed from './TechniqueUsed'
 import Proceder from './Proceder'
-import Appointment from '../homeLanding/appointment'
 import appointmentPic from '../../assets/homeImg/AppointmentPic.png'
 
 import BookAppointmentForm from '../common/BookAppointmentForm'
 
 const Transplantation = () => {
-    return (
-        <>
-            <div>
-                <Header />
-                <HairTransplation />
-                <HairTransplationSection />
-                <AestheticCare />
-                <TechniqueUsed />
-                <Proceder />
-                {/* <Appointment /> */}
-                <BookAppointmentForm
-                    appointmentPic={appointmentPic}
-                    isReversed
-                />
+  return (
+    <>
+      <div>
+        <Header />
+        <HairTransplation />
+        <HairTransplationSection />
+        <AestheticCare />
+        <TechniqueUsed />
+        <Proceder />
+        {/* <Appointment /> */}
+        <BookAppointmentForm
+          appointmentPic={appointmentPic}
+          isReversed
+        />
 
-                <Footer />
-            </div>
-        </>
-    )
+        <Footer />
+      </div>
+    </>
+  )
 }
 
 export default Transplantation

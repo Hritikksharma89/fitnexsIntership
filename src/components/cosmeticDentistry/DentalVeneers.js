@@ -1,6 +1,6 @@
-import React from "react";
-import TextCard from "../common/textCard";
-import dentalVeeners from "../../assets/cosmeticDentist/dentalVeneer.png";
+import React from 'react'
+import TextCard from '../common/textCard'
+import dentalVeeners from '../../assets/cosmeticDentist/dentalVeneer.png'
 
 const DentalVeneers = () => {
   const para = [
@@ -11,12 +11,12 @@ const DentalVeneers = () => {
      both capable of beautifully transforming your smile.`,
     `The choice between them hinges on your unique needs and priorities, such as cost, treatment time, and durability.`,
     `Let's delve into the differences between composite and porcelain veneers to help you make an informed decision.`
-  ];
+  ]
   return (
     <>
-      <div className="my-16 px-4">
+      <div className='my-16 px-4'>
         <TextCard
-          cardTitle="Dental Veneers"
+          cardTitle='Dental Veneers'
           img={dentalVeeners}
           paragraphs={para}
           isReversed={true}
@@ -24,7 +24,7 @@ const DentalVeneers = () => {
         />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default DentalVeneers;
+export default DentalVeneers

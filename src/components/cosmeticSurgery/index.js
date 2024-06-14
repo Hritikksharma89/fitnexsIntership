@@ -28,36 +28,39 @@ import BodyContours from './BodyContours'
 import BookAppointmentForm from '../common/BookAppointmentForm'
 
 const Surgery = () => {
-    return (
-        <div>
-            <Header />
-            <CosmeticSurgery />
-            <BodyContours />
-            <Liposuction />
-            <BenefitsOfLiposuction />
-            <LiposuctionCandidate />
-            <Rhinoplasty />
-            <BenefitOfRhinoplasty />
-            <CandidateForRhinoplasty />
-            <BreastImplantation />
-            <BenefitsofBreastImplantation />
-            <CandidateOfBreastImplantation />
-            <MastopexyBreastLift />
-            <BenefitsOfMastopexyBreastLift />
-            <CandidateForMastopexy />
-            <Vaginoplasty />
-            <BenifitOfVaginoplasty />
-            <CandidateForVaginoplasty />
-            <Gynecomastia />
-            <BnenefitOfGynecomastia />
-            <CandidateOfGynecomastia />
-            <Blephropasty />
-            <BenefitsOfBlepharoplasty />
-            <CandidateforBlepharoplasty />
-            <BookAppointmentForm appointmentPic={book} isReversed />
-            <Footer />
-        </div>
-    )
+  return (
+    <div>
+      <Header />
+      <CosmeticSurgery />
+      <BodyContours />
+      <Liposuction />
+      <BenefitsOfLiposuction />
+      <LiposuctionCandidate />
+      <Rhinoplasty />
+      <BenefitOfRhinoplasty />
+      <CandidateForRhinoplasty />
+      <BreastImplantation />
+      <BenefitsofBreastImplantation />
+      <CandidateOfBreastImplantation />
+      <MastopexyBreastLift />
+      <BenefitsOfMastopexyBreastLift />
+      <CandidateForMastopexy />
+      <Vaginoplasty />
+      <BenifitOfVaginoplasty />
+      <CandidateForVaginoplasty />
+      <Gynecomastia />
+      <BnenefitOfGynecomastia />
+      <CandidateOfGynecomastia />
+      <Blephropasty />
+      <BenefitsOfBlepharoplasty />
+      <CandidateforBlepharoplasty />
+      <BookAppointmentForm
+        appointmentPic={book}
+        isReversed
+      />
+      <Footer />
+    </div>
+  )
 }
 
 export default Surgery

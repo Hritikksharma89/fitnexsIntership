@@ -23,31 +23,34 @@ import BookAppointmentForm from '../common/BookAppointmentForm'
 import book from '../../assets/homeImg/AppointmentPic.png'
 
 const Dentistry = () => {
-    return (
-        <div className="bg-white">
-            <Header />
-            <CosmeticDentistry />
-            <IntroductionToTeethWhite />
-            <TeethWhitening />
-            <ConsiderTeethWhitening />
-            <DentalVeneers />
-            <BenefitOfDentelVeneers />
-            <DentalImplants />
-            <BenefitOfDentalImplants />
-            <ConsiderDentalImplants />
-            <DentalAligner />
-            <BenefitOfDentalAligner />
-            <ConsiderDentalAligner />
-            <Gingivoplasty />
-            <BenefitsOfGingivoplasty />
-            <ConsiderGingivoplasty />
-            <DentalJewellery />
-            <BenefitOfDentalJewellery />
-            <ConsiderDentalJewellery />
-            <BookAppointmentForm isReversed appointmentPic={book} />
-            <Footer />
-        </div>
-    )
+  return (
+    <div className='bg-white'>
+      <Header />
+      <CosmeticDentistry />
+      <IntroductionToTeethWhite />
+      <TeethWhitening />
+      <ConsiderTeethWhitening />
+      <DentalVeneers />
+      <BenefitOfDentelVeneers />
+      <DentalImplants />
+      <BenefitOfDentalImplants />
+      <ConsiderDentalImplants />
+      <DentalAligner />
+      <BenefitOfDentalAligner />
+      <ConsiderDentalAligner />
+      <Gingivoplasty />
+      <BenefitsOfGingivoplasty />
+      <ConsiderGingivoplasty />
+      <DentalJewellery />
+      <BenefitOfDentalJewellery />
+      <ConsiderDentalJewellery />
+      <BookAppointmentForm
+        isReversed
+        appointmentPic={book}
+      />
+      <Footer />
+    </div>
+  )
 }
 
 export default Dentistry

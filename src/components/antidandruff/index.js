@@ -15,23 +15,26 @@ import appointmentPic from '../../assets/homeImg/AppointmentPic.png'
 import BookAppointmentForm from '../common/BookAppointmentForm'
 
 const AntiDandruff = () => {
-    return (
-        <div>
-            <Header />
-            <AntiDandruffAndHairFall />
-            <AntiDandruffTreatment />
-            <AestheticCare />
-            <ScalePeel />
-            <ScalpPurify />
-            <HairFall />
-            <HairCare />
-            <TreatmentBenefit />
-            <WhyHairCare />
-            <CausesofHairLoss />
-            <BookAppointmentForm appointmentPic={appointmentPic} isReversed />
-           <Footer />
-        </div>
-    )
+  return (
+    <div>
+      <Header />
+      <AntiDandruffAndHairFall />
+      <AntiDandruffTreatment />
+      <AestheticCare />
+      <ScalePeel />
+      <ScalpPurify />
+      <HairFall />
+      <HairCare />
+      <TreatmentBenefit />
+      <WhyHairCare />
+      <CausesofHairLoss />
+      <BookAppointmentForm
+        appointmentPic={appointmentPic}
+        isReversed
+      />
+      <Footer />
+    </div>
+  )
 }
 
 export default AntiDandruff

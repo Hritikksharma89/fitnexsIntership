@@ -1,41 +1,41 @@
-import React from "react";
-import smileImg from "../../assets/Ellipse 78.png";
-import starimg from "../../assets/star.png";
-import SmileCards from "../common/smileCards";
+import React from 'react'
+import smileImg from '../../assets/Ellipse 78.png'
+import starimg from '../../assets/star.png'
+import SmileCards from '../common/smileCards'
 
 const Customer = () => {
   const content = [
     {
       id: 1,
       Image: smileImg,
-      text: "I visited koza clinic for my skin and it was really great experience for me...within few days only I got to know the results and I felt very happy for that..The team was very friendly as they clearly explained everything what and all Happens...Thank you so much...  ❤️",
-      icons: starimg,
+      text: 'I visited koza clinic for my skin and it was really great experience for me...within few days only I got to know the results and I felt very happy for that..The team was very friendly as they clearly explained everything what and all Happens...Thank you so much...  ❤️',
+      icons: starimg
     },
     {
       id: 2,
       Image: smileImg,
-      text: "One of the best clinic. Satisfied with treatment, doctors and staff. I am really satisfied",
-      icons: starimg,
+      text: 'One of the best clinic. Satisfied with treatment, doctors and staff. I am really satisfied',
+      icons: starimg
     },
     {
       id: 3,
       Image: smileImg,
-      text: "Hydra facial is really good treatment to do because it makes my skin glowing and healthy. The initial results typically last a few days, but my overall skin health is improved after a week.. ",
-      icons: starimg,
+      text: 'Hydra facial is really good treatment to do because it makes my skin glowing and healthy. The initial results typically last a few days, but my overall skin health is improved after a week.. ',
+      icons: starimg
     },
     {
       id: 4,
       Image: smileImg,
-      text: "Koza is a modern, well equipped skin care clinic with very professional and empathetic staff and more than anything else, (in my experience) it shows result of the treatment faster than expected. They do adjust and are flexible with your requirements during the procedure and sessions .",
-      icons: starimg,
+      text: 'Koza is a modern, well equipped skin care clinic with very professional and empathetic staff and more than anything else, (in my experience) it shows result of the treatment faster than expected. They do adjust and are flexible with your requirements during the procedure and sessions .',
+      icons: starimg
     },
     {
       id: 5,
       Image: smileImg,
-      text: "Worry about your Hair & Skin ? Then Asthetic Care is the place for you. Excellent service with high standard professionals and staffs. Must try.",
-      icons: starimg,
-    },
-  ];
+      text: 'Worry about your Hair & Skin ? Then Asthetic Care is the place for you. Excellent service with high standard professionals and staffs. Must try.',
+      icons: starimg
+    }
+  ]
 
   return (
     <>
@@ -81,6 +81,6 @@ const Customer = () => {
       </div> */}
       <SmileCards />
     </>
-  );
-};
-export default Customer;
+  )
+}
+export default Customer

@@ -12,20 +12,20 @@ import WhyChooseKoza from './WhyChooseKoza'
 import Consultation from './Consultation'
 
 const WeightSection = () => {
-    return (
-        <div className="">
-            <Header />
-            <WeightLossGain />
-            <WhatWeDo />
-            <WhatWeOffer />
-            <BodyFirming />
-            <BodyToning />
-            <BodyCompositionAnalysis />
-            <WeightProgram />
-            <WhyChooseKoza />
-            <Consultation />
-            <Footer />
-        </div>
-    )
+  return (
+    <div className=''>
+      <Header />
+      <WeightLossGain />
+      <WhatWeDo />
+      <WhatWeOffer />
+      <BodyFirming />
+      <BodyToning />
+      <BodyCompositionAnalysis />
+      <WeightProgram />
+      <WhyChooseKoza />
+      <Consultation />
+      <Footer />
+    </div>
+  )
 }
 export default WeightSection

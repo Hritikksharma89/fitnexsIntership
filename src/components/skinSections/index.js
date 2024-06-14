@@ -18,27 +18,33 @@ import BookAppointmentForm from '../common/BookAppointmentForm'
 import book from '../../assets/homeImg/AppointmentPic.png'
 
 const SkinSection = () => {
-    return (
-        <div className="">
-            <Header />
-            <UnEvenSkin />
-            <div>
-                <Causes />
-                <SkinHairServices />
-                <Range />
-                <Benefits />
-                <ChemicalPeel />
-                <TreatmentBenefits />
-                <QVampire />
-                <SkinFacial />
-                <Concerns />
-                <KozaAesthetics />
-                <SimpleSlider />
-                <AskedQuestion colorReversal hideBlackBG />
-                <BookAppointmentForm isReversed appointmentPic={book} />
-            </div>
-            <Footer />
-        </div>
-    )
+  return (
+    <div className=''>
+      <Header />
+      <UnEvenSkin />
+      <div>
+        <Causes />
+        <SkinHairServices />
+        <Range />
+        <Benefits />
+        <ChemicalPeel />
+        <TreatmentBenefits />
+        <QVampire />
+        <SkinFacial />
+        <Concerns />
+        <KozaAesthetics />
+        <SimpleSlider />
+        <AskedQuestion
+          colorReversal
+          hideBlackBG
+        />
+        <BookAppointmentForm
+          isReversed
+          appointmentPic={book}
+        />
+      </div>
+      <Footer />
+    </div>
+  )
 }
 export default SkinSection

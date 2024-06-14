@@ -14,25 +14,27 @@ import AstheticCare from './AstheticCare'
 import appointmentPic from '../../assets/homeImg/AppointmentPic.png'
 import BookAppointmentForm from '../common/BookAppointmentForm'
 
-
 const DarkCircle = () => {
-    return (
-        <div>
-            <Header />
-            <TiredEyes />
-            <KnowMoreAboutUs />
-            <AboutDarkCircle />
-            <EyeDarkCircleTretment />
-            <WhatAreDarkCircle />
-            <CauseOfDarkCircle />
-            <TypeOfDarkCircle />
-            <PreventDarkCircle />
-            <PossibleTreatment />
-            <AstheticCare />
-            <BookAppointmentForm appointmentPic={appointmentPic} isReversed />
-            <Footer />
-        </div>
-    )
+  return (
+    <div>
+      <Header />
+      <TiredEyes />
+      <KnowMoreAboutUs />
+      <AboutDarkCircle />
+      <EyeDarkCircleTretment />
+      <WhatAreDarkCircle />
+      <CauseOfDarkCircle />
+      <TypeOfDarkCircle />
+      <PreventDarkCircle />
+      <PossibleTreatment />
+      <AstheticCare />
+      <BookAppointmentForm
+        appointmentPic={appointmentPic}
+        isReversed
+      />
+      <Footer />
+    </div>
+  )
 }
 
 export default DarkCircle
